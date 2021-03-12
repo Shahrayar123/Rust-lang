@@ -16,7 +16,7 @@ pub fn message()
     // Named Argument
     println!("{name} like to play {activity}",
      name = "Hamza",
-    activity = "Backetball");
+     activity = "Backetball");
 
     // Placeholder traits
     println!("Binary: {:b}, Hexadecimal: {:x}, Octal: {:o}", 10,10,10);
