@@ -3,7 +3,8 @@
 // mod data_types;
 // mod string;
 // mod tuples;
-mod array;
+// mod array;
+mod vectors;
 
 fn main() {
     // print_formatting::message();
@@ -11,8 +12,9 @@ fn main() {
     // data_types::types();
     // string::string();
     // tuples::tuple();
+    // array::array();
 
-    array::array();
+    vectors::vector();
 
 
     
