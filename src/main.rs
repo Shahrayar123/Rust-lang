@@ -5,7 +5,8 @@
 // mod tuples;
 // mod array;
 // mod vectors;
-mod conditionals;
+// mod conditionals;
+mod loops;
 
 fn main() {
     // print_formatting::message();
@@ -15,8 +16,9 @@ fn main() {
     // tuples::tuple();
     // array::array();
     // vectors::vector();
+    // conditionals::condition();
 
-    conditionals::condition();
+    loops::run();
 
 
     
