@@ -4,7 +4,8 @@
 // mod string;
 // mod tuples;
 // mod array;
-mod vectors;
+// mod vectors;
+mod conditionals;
 
 fn main() {
     // print_formatting::message();
@@ -13,8 +14,9 @@ fn main() {
     // string::string();
     // tuples::tuple();
     // array::array();
+    // vectors::vector();
 
-    vectors::vector();
+    conditionals::condition();
 
 
     
