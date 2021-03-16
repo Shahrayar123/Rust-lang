@@ -6,7 +6,8 @@
 // mod array;
 // mod vectors;
 // mod conditionals;
-mod loops;
+// mod loops;
+mod functions;
 
 fn main() {
     // print_formatting::message();
@@ -17,8 +18,9 @@ fn main() {
     // array::array();
     // vectors::vector();
     // conditionals::condition();
+    // loops::run();
 
-    loops::run();
+    functions::run();
 
 
     
