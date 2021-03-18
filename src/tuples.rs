@@ -12,11 +12,19 @@ pub fn tuple()
     println!("Fifth element in tuple is: {}",items.4);
     println!("Sixth element in tuple is: {}",items.5);
     println!("Seventh element in tuple is: {}",items.6);
+    
 
  
     // assigning values from tuple to variables
     let  (a,b,c,d,e,f,g,h) = items; 
 
+    let a = (1,2,3,4,5,6,7,8,9,10);
+
+    let b = (a, 11,12,13,14,15);
+
+    println!("\n{:?}",b);
+
+    println!("\n{:#?}",b.0);
 
 
 }
